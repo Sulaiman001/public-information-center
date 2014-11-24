@@ -82,5 +82,5 @@ limitations under the License.
 A copy of the license is available in the repository's
 [LICENSE.txt](LICENSE.txt) file.
 
-[](Esri Tags: Local-Government Local Government Public Information Center)
+[](Esri Tags: ArcGISSolutions Local-Government Local Government Public Information Center)
 [](Esri Language: JavaScript)
