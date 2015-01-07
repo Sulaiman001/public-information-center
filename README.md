@@ -2,9 +2,9 @@
 
 Public Information Center is a configuration of ArcGIS Server and a JavaScript application that allows citizens to review activities published by the local government, submit requests for service in their community, and review social media feeds to see what is being said about their community. Initially, this application can be deployed for infrastructure agencies and uses operational layers typically published by water utilities or public infrastructure agencies. It can also be configured to support a comprehensive local government citizen service application organized for other agencies or issues.
 
-[Try the Public Information Center application](http://tryitlive.arcgis.com/PublicInfoCenter/)
+[Try the Public Information Center application](http://links.esri.com/localgovernment/tryit/PublicInformationCenter/)
 
-[![Image of Public Information Center application](public-information-center.png "Public Information Center application")](http://tryitlive.arcgis.com/PublicInfoCenter/)
+[![Image of Public Information Center application](public-information-center.png "Public Information Center application")](http://links.esri.com/localgovernment/tryit/PublicInformationCenter/)
 
 ## Features
 
@@ -14,32 +14,16 @@ Public Information Center is a configuration of ArcGIS Server and a JavaScript a
 * Review social media feeds (Twitter, YouTube, Flickr)
 * Share using social media
 
-## Instructions
-
-### Esri Sample Services
-
-Esri's sample services can be used with this repository to extend the application.
-
-### Your Services
-
-[Detailed help](http://resources.arcgis.com/en/help/localgovernment/10.1/index.html#/What_is_Public_Information_Center/028s0000001n000000/)
-on the ArcGIS Resource Center can guide you in the setup and configuration of the app with your services.
-
-### General Help
-[New to Github? Get started here.](http://htmlpreview.github.com/?https://github.com/Esri/esri.github.com/blob/master/help/esri-getting-to-know-github.html)
-
 ## Requirements
 
-### Esri Sample Services
+**Start now using Esri-supplied sample services**
 
-* Microsoft ASP.NET Framework 4.0 available from the [Microsoft website](http://www.microsoft.com/en-us/download/details.aspx?id=17851)
+You can start using the application now by setting it up on a web server running Microsoft Internet Information Services (IIS) and using sample services supplied by Esri.
+You'll need to convert to an application in IIS and use the ASP .NET 4.0. application pool.
 
-### Your Services
+**Start now using your own services**
 
-* ArcGIS for Desktop 10.2 - Standard or Advanced - [About](http://www.esri.com/software/arcgis/arcgis-for-desktop)
-* ArcGIS for Server 10.2 - Standard or Advanced - [About](http://www.esri.com/software/arcgis/arcgisserver)
-* Local Government Information Model - [About](http://www.arcgis.com/home/item.html?id=ae175b36c4154dda987127dff879350d)
-* Microsoft ASP.NET Framework 4.0 available from the [Microsoft website](http://www.microsoft.com/en-us/download/details.aspx?id=17851)
+For more information on requirements and publication steps, see [Public Information Center](http://links.esri.com/localgovernment/help/10.2/PublicInformationCenter) help.
 
 ## Resources
 
@@ -47,12 +31,9 @@ Learn more about Esri's [ArcGIS for Local Government maps and apps](http://solut
 
 Show me a list of other [Local Government GitHub repositories](http://esri.github.io/#Local-Government).
 
-Additional [information and sample data](http://www.arcgis.com/home/item.html?id=8fad9c264f84425196bf95474aa3c7de)
-are available for the application.
+This application uses the 3.5 version of [Esri's ArcGIS API for JavaScript](http://help.arcgis.com/en/webapi/javascript/arcgis/); see the site for concepts, samples, and a reference for using the API to create mapping web sites.
 
-This application uses the 3.5 version of
-[Esri's ArcGIS API for JavaScript](http://help.arcgis.com/en/webapi/javascript/arcgis/);
-see the site for concepts, samples, and a reference for using the API to create mapping web sites.
+[New to Github? Get started here.](http://htmlpreview.github.com/?https://github.com/Esri/esri.github.com/blob/master/help/esri-getting-to-know-github.html)
 
 ## Issues
 
