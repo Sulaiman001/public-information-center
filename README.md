@@ -38,7 +38,7 @@ This application uses the 3.5 version of [Esri's ArcGIS API for JavaScript](http
 
 ## Issues
 
-Find a bug or want to request a new feature?  Please let us know by submitting an issue.
+Find a bug or want to request a new feature?  Please submit an issue. Note: The Public Information Center repo is no longer being monitored, applications built from this repo are in mature support
 
 ## Contributing
 
