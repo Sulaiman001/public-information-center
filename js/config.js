@@ -63,13 +63,13 @@ dojo.declare("js.config", null, {
         Key: "streetMap",
         ThumbnailSource: "images/Parcel map.png",
         Name: "Streets",
-        MapURL: "http://tryitlive.arcgis.com/arcgis/rest/services/GeneralPurpose/MapServer"
+        MapURL: "http://yourserver/arcgis/rest/services/GeneralPurpose/MapServer"
 
     }, {
         Key: "imageryMap",
         ThumbnailSource: "images/Imagery Hybrid.png",
         Name: "Imagery",
-        MapURL: "http://tryitlive.arcgis.com/ArcGIS/rest/services/ImageryHybrid/MapServer"
+        MapURL: "http://yourserver/ArcGIS/rest/services/ImageryHybrid/MapServer"
     }],
 
     //Default initial map extent.
@@ -162,13 +162,13 @@ dojo.declare("js.config", null, {
         Instructions: "<br/><b>Submit a Request for Service:</b> <br/> <br/>Please search for an address or click directly on the map to locate your request for service. Then, provide details about the request below and click Submit to initiate your request. You'll be provided a Request # that can be used to track the status of your request. If you find a request has already been submitted by another party, you can click on the existing request, provide additional comments and increase the importance of the request.<br /><br/><b>Please note:</b> Attachments can be used to submit a photo, video or other document related to a service request.<br/>",
         LayerInfo: {
             Key: "serviceRequest",
-            LayerURL: "http://services.arcgis.com/b6gLrKHqgkQb393u/ArcGIS/rest/services/ServiceRequestTryItLive/FeatureServer/0",
+            LayerURL: "http://yourserver/ArcGIS/rest/services/ServiceRequest/FeatureServer/0",
             OutFields: "*",
             RequestTypeFieldName: "REQUESTTYPE",
             //Set the attribute for requestID used for creating a new request
             RequestId: "${REQUESTID}",
 
-            CommentsLayerURL: "http://services.arcgis.com/b6gLrKHqgkQb393u/ArcGIS/rest/services/ServiceRequestTryItLive/FeatureServer/1",
+            CommentsLayerURL: "http://yourserver/ArcGIS/rest/services/ServiceRequest/FeatureServer/1",
             CommentsOutFields: "*",
             //Set the primary key attribute for the comments
             CommentId: "${REQUESTID}"
@@ -221,7 +221,7 @@ dojo.declare("js.config", null, {
         LayerInfo: [{
             Key: "capitalProjects",
             DisplayText: "City Construction Projects",
-            LayerURL: "http://tryitlive.arcgis.com/arcgis/rest/services/InfrastructureAlerts/MapServer/6",
+            LayerURL: "http://yourserver/arcgis/rest/services/InfrastructureAlerts/MapServer/6",
             RippleColor: "#C35617",
             isLayerVisible: true,
             defaultTabOpen: true,
@@ -237,7 +237,7 @@ dojo.declare("js.config", null, {
         }, {
             Key: "externalAgencyProjects",
             DisplayText: "Private Utility and Transit Projects",
-            LayerURL: "http://tryitlive.arcgis.com/arcgis/rest/services/InfrastructureAlerts/MapServer/7",
+            LayerURL: "http://yourserver/arcgis/rest/services/InfrastructureAlerts/MapServer/7",
             RippleColor: "#BCE954",
             isLayerVisible: false,
             defaultTabOpen: false,
@@ -253,7 +253,7 @@ dojo.declare("js.config", null, {
         }, {
             Key: "infrastructureAlerts",
             DisplayText: "Public Notices and Alerts",
-            LayerURL: "http://tryitlive.arcgis.com/arcgis/rest/services/InfrastructureAlerts/MapServer/5",
+            LayerURL: "http://yourserver/arcgis/rest/services/InfrastructureAlerts/MapServer/5",
             RippleColor: "#C11B17",
             isLayerVisible: false,
             defaultTabOpen: false,
@@ -269,7 +269,7 @@ dojo.declare("js.config", null, {
         }, {
             Key: "leaksMainBreaks",
             DisplayText: "Water Main Leaks and Breaks",
-            LayerURL: "http://tryitlive.arcgis.com/arcgis/rest/services/InfrastructureAlerts/MapServer/2",
+            LayerURL: "http://yourserver/arcgis/rest/services/InfrastructureAlerts/MapServer/2",
             RippleColor: "#C11B17",
             isLayerVisible: false,
             defaultTabOpen: false,
@@ -285,7 +285,7 @@ dojo.declare("js.config", null, {
         }, {
             Key: "sanitaryBackup",
             DisplayText: "Sewer Backups",
-            LayerURL: "http://tryitlive.arcgis.com/arcgis/rest/services/InfrastructureAlerts/MapServer/3",
+            LayerURL: "http://yourserver/arcgis/rest/services/InfrastructureAlerts/MapServer/3",
             RippleColor: "#4AA02C",
             isLayerVisible: false,
             defaultTabOpen: false,
@@ -301,7 +301,7 @@ dojo.declare("js.config", null, {
         }, {
             Key: "sanitaryOverflow",
             DisplayText: "Sewer Overflows",
-            LayerURL: "http://tryitlive.arcgis.com/arcgis/rest/services/InfrastructureAlerts/MapServer/4",
+            LayerURL: "http://yourserver/arcgis/rest/services/InfrastructureAlerts/MapServer/4",
             RippleColor: "#4AA02C",
             isLayerVisible: false,
             defaultTabOpen: false,
